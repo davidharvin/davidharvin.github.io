@@ -43,8 +43,8 @@ VAGAS SLIDESHOW SCRIPTS
 ======================================*/
 $.vegas('slideshow', {
 backgrounds: [
-{ src: 'assets/img/dark_exa.png', fade: 1000, delay: 9000 , cover: false},
-{ src: 'assets/img/dark_embroidery.png', fade: 1000, delay: 9000, cover: false },
+{ src: 'assets/img/dark_exa.png', fade: 1000, delay: 9000 , cover: 'false'},
+{ src: 'assets/img/dark_embroidery.png', fade: 1000, delay: 9000, cover: 'false' },
 ]
 })('overlay', {
 /** SLIDESHOW OVERLAY IMAGE **/
