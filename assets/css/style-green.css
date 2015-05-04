@@ -31,6 +31,10 @@ font-family: 'Ubuntu', sans-serif;
 color: #fff;
 }
 
+body {
+background: url(assets/img/dark_exa.png) repeat;
+}
+
 section {
 padding-top: 80px;
 padding-bottom: 40px;
