@@ -41,15 +41,15 @@ interval: 5000 //TIME IN MILLI SECONDS
 /*====================================
 VAGAS SLIDESHOW SCRIPTS
 ======================================*/
-$.vegas('slideshow', {
+/* $.vegas('slideshow', {
 backgrounds: [
 { src: 'assets/img/dark_exa.png', fade: 1000, delay: 9000 , cover: 'false'},
 { src: 'assets/img/dark_embroidery.png', fade: 1000, delay: 9000, cover: false },
 ]
 })('overlay', {
 /** SLIDESHOW OVERLAY IMAGE **/
-src: 'assets/js/vegas/overlays/06.png' // THERE ARE TOTAL 01 TO 15 .png IMAGES AT THE PATH GIVEN, WHICH YOU CAN USE HERE
-});
+/* src: 'assets/js/vegas/overlays/06.png' // THERE ARE TOTAL 01 TO 15 .png IMAGES AT THE PATH GIVEN, WHICH YOU CAN USE HERE
+}); */
 
 
 /*====================================
