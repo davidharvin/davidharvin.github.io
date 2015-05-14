@@ -39,7 +39,7 @@ interval: 4000 //TIME IN MILLI SECONDS
 
 
 /*====================================
-VAGAS SLIDESHOW SCRIPTS
+VEGAS SLIDESHOW SCRIPTS
 ======================================*/
 /* $.vegas('slideshow', {
 backgrounds: [
@@ -102,10 +102,33 @@ return false;
 WRITE YOUR CUSTOM SCRIPTS BELOW
 ======================================*/
 
+
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+/*NORMALIZE CAROUSEL HEIGHT*/
+setCarouselHeight('#carousel-slider);
+
+    function setCarouselHeight(id)
+    {
+        var slideHeight = [];
+        $(id+' .item').each(function()
+        {
+            // add all slide heights to an array
+            slideHeight.push($(this).height());
+        });
+
+        // find the tallest item
+        max = Math.max.apply(null, slideHeight);
+
+        // set the slide's height
+        $(id+' .carousel-content').each(function()
+        {
+            $(this).css('height',max+'px');
+        });
+    }
 
 
 
