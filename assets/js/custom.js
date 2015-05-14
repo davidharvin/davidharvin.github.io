@@ -109,6 +109,8 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 /*NORMALIZE CAROUSEL HEIGHT*/
+$(window).load(function(){
+
 setCarouselHeight('#carousel-slider');
 
     function setCarouselHeight(id)
@@ -129,7 +131,7 @@ setCarouselHeight('#carousel-slider');
             $(this).css('height',max+'px');
         });
     }
-
+});
 
 
 
