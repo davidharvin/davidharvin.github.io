@@ -109,7 +109,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 /*NORMALIZE CAROUSEL HEIGHT*/
-setCarouselHeight('#carousel-slider);
+setCarouselHeight('#carousel-slider');
 
     function setCarouselHeight(id)
     {
