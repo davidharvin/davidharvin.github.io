@@ -169,6 +169,12 @@ line-height: 25px;
 margin: 25px 20px;
 }
 
+#carousel-inner {
+  position: relative;
+  width: 150%;
+  overflow: hidden;
+}
+
 /* =============================================================
 SERVICES SECTION STYLES
 ============================================================ */
