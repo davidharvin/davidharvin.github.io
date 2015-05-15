@@ -109,7 +109,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 function carouselNormalization() {
-var items = $('#carousel-example-generic .item'), //grab all slides
+var items = $('#carousel-slider .item'), //grab all slides
     heights = [], //create empty array to store height values
     tallest; //create variable to make note of the tallest slide
 
