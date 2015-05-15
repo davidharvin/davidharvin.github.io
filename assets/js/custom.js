@@ -109,30 +109,42 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 /*NORMALIZE CAROUSEL HEIGHT*/
-$(window).load(function(){
 
-setCarouselHeight('#carousel-slider');
+function carouselNormalization() {
+  var items   = $('#carousel-id .item'),              // grab all the slides
+      heights = [],                                   // array to store heights
+      tallest;                                        // tallest slide
 
-    function setCarouselHeight(id)
-    {
-        var slideHeight = [];
-        $(id+' .item').each(function()
-        {
-            // add all slide heights to an array
-            slideHeight.push($(this).height());
-        });
+  if (items.length) {
+    function normalizeHeights() {
+      items.each(function() {
+        heights.push($(this).height());               // add each slide's height
+      });                                             // to the array
 
-        // find the tallest item
-        max = Math.max.apply(null, slideHeight);
+      tallest = Math.max.apply(null, heights);        // find the largest height
 
-        // set the slide's height
-        $(id+' .carousel-content').each(function()
-        {
-            $(this).css('height',max+'px');
-        });
-    }
+      items.each(function() {
+        $(this).css('min-height', tallest + 'px');    // set each slide's minimum
+      });                                             // height to the largest
+    };
+
+    normalizeHeights();
+
+    $(window).on('resize orientationchange', function() {
+      tallest = 0, heights.length = 0;               // reset the variables
+
+      items.each(function() {
+        $(this).css('min-height', '0');              // reset each slide's height
+      });
+
+      normalizeHeights();                            // run it again
+    });
+  }
+}
 });
 
+
+$carouselNormalization();
 
 
 });
