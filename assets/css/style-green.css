@@ -169,7 +169,7 @@ line-height: 25px;
 margin: 25px 20px;
 }
 
-#carousel-inner {
+#carousel-slider.carousel-inner {
 height: 200px;
 }
 
