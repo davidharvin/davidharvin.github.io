@@ -108,7 +108,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 
-function carouselNormalization() {
+/*function carouselNormalization() {
 var items = $('#carousel-slider.carousel.slide.item'), //grab all slides
     heights = [], //create empty array to store height values
     tallest; //create variable to make note of the tallest slide
@@ -133,6 +133,27 @@ if (items.length) {
         normalizeHeights(); //run it again 
     });
 }
-}
+}*/
+
+    setCarouselHeight('#carousel-slider');
+
+    function setCarouselHeight(id)
+    {
+        var slideHeight = [];
+        $(id+' .item').each(function()
+        {
+            // add all slide heights to an array
+            slideHeight.push($(this).height());
+        });
+
+        // find the tallest item
+        max = Math.max.apply(null, slideHeight);
+
+        // set the slide's height
+        $(id+' .carousel-content').each(function()
+        {
+            $(this).css('height',max+'px');
+        });
+    }
 
 });
