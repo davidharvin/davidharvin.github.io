@@ -210,8 +210,9 @@ color: rgb(57, 171, 111);
 AVAILABILITY SECTION STYLES
 ============================================================ */
 
-th.availability {
+th.avail {
 text-align: center;
+background-color: yellow;
 }
 
 /*============================
