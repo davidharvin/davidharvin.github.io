@@ -22,7 +22,6 @@ GOOGLE FONT
 @import url(http://fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
 
 
-
 /* =============================================================
 GENERAL STYLES
 ============================================================ */
@@ -54,7 +53,6 @@ text-transform: uppercase;
 width: 50px;
 border-top: 2px solid rgb(57, 171, 111);
 }
-
 
 /* =============================================================
 CUSTOM BUTTON STYLES
@@ -96,7 +94,6 @@ color: #fff;
 background-color: transparent;
 }
 
-
 /* =============================================================
 MENU SECTION STYLES
 ============================================================ */
@@ -134,7 +131,6 @@ background-color: rgb(57, 171, 111);
 .navbar-inverse .navbar-toggle {
 border-color: rgb(57, 171, 111);
 }
-
 
 /* =============================================================
 HOME SECTION STYLES
@@ -210,6 +206,13 @@ color: rgb(57, 171, 111);
 /*font-size: 60px;*/
 }
 
+/* =============================================================
+AVAILABILITY SECTION STYLES
+============================================================ */
+
+#availability.th {
+text-align: center;
+}
 
 /*============================
 PRICING SECTION STYLES
@@ -296,7 +299,6 @@ margin-top: 10px;
 padding-top: 80px;
 }
 
-
 /*============================
 WORK SECTION STYLES
 ==============================*/
@@ -342,8 +344,6 @@ filter: alpha(opacity=80); /* ie lt 7 */
 #work .work-wrapper h4 {
 padding-top: 10px;
 }
-
-
 
 /*============================
 TEAM SECTION STYLES
