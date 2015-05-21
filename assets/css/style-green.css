@@ -146,6 +146,11 @@ padding-top: 120px;
 padding-bottom: 60px;
 }
 
+#home .intro {
+display: block;
+padding-top: 50px;
+}
+
 #home .social {
 display: block;
 margin: 50px 20px;
