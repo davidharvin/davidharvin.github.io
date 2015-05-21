@@ -211,12 +211,18 @@ AVAILABILITY SECTION STYLES
 ============================================================ */
 
 table {
-width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
 
 th {
 text-align: center;
 }
+
+td {
+padding: 0px 15px 0px 15px;
+}
+
 
 /*============================
 PRICING SECTION STYLES
