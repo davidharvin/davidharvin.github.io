@@ -210,6 +210,10 @@ color: rgb(57, 171, 111);
 AVAILABILITY SECTION STYLES
 ============================================================ */
 
+table {
+width: 100%;
+}
+
 th {
 text-align: center;
 background-color: yellow;
