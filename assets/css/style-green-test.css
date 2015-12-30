@@ -183,7 +183,7 @@ SERVICES SECTION STYLES
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-border-radius:5px;
+border-radius:10px;
 }
 @media (min-width: 768px) {
   .container-dark {
