@@ -178,8 +178,8 @@ height: 200px;
 SERVICES SECTION STYLES
 ============================================================ */
 
-.container {
-background-color: #202020;
+.container-dark {
+background-color: #101010;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
