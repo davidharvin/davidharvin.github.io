@@ -58,16 +58,6 @@ border-top: 2px solid rgb(57, 171, 111);
     background: #101010; border-color: #101010
 }
 
-.newRow {
-  width: 100%;
-  display: table;
-}
-.newRow .col-md-3 {
-  display: table-cell;
-  vertical-align: middle;
-  float: none
-}
-
 /* =============================================================
 CUSTOM BUTTON STYLES
 ============================================================ */
