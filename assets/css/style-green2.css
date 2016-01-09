@@ -478,7 +478,7 @@ padding: 20px;
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
-margin-bottom: 40px;
+margin-bottom: 20px;
 min-height:200px;
 }
 #contact .contact-wrapper h3 {
@@ -500,8 +500,9 @@ text-decoration:none;
 
 
 /*============================
-STICKY FOOTER STYLES
+FOOTER SECTION STYLES
 ==============================*/
+
 html {
   position: relative;
   min-height: 100%;
@@ -515,6 +516,18 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
- /* height: 60px; */
-  background-color: #101010;
+  height: 60px;
+  background-color: #000000;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+  color: #777;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+code {
+  font-size: 80%;
 }
