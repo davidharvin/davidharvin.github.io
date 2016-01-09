@@ -524,6 +524,7 @@ body {
 
 .container .text-muted {
   margin: 20px 0;
+  color: #777;
 }
 
 .footer > .container {
