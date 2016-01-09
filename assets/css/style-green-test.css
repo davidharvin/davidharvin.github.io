@@ -520,17 +520,14 @@ body {
   background-color: #000000;
 }
 
-
 .container .text-muted {
   margin: 20px 0;
   color: #777;
 }
-
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
 }
-
 code {
   font-size: 80%;
 }
