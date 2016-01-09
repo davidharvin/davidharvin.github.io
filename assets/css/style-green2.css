@@ -19,8 +19,8 @@ GOOGLE FONT
 ============================================================ */
 
 @import url(fonts.googleapis.com/css?family=Ubuntu); /* FREE GOOGLE FONT */
-/*@import url(fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
-@import url(fonts.googleapis.com/css?family=Open+Sans);
+@import url(fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
+/*@import url(fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 
 /* =============================================================
@@ -45,7 +45,7 @@ padding-bottom: 60px;
 }
 
 .header {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
 padding-bottom: 40px;
 text-transform: uppercase;
 }
@@ -124,7 +124,7 @@ color: #FFF;
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 color: #fff;
 font-weight: 900;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -165,7 +165,7 @@ padding: 50px 35px 5px 35px;
 
 #carousel-slider h3 {
 line-height: 50px;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 #carousel-slider p {
@@ -202,7 +202,7 @@ background-color: rgba(255, 255, 255, 0.20);
 }
 
 #services h3 {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 #services .services-wrapper i {
@@ -458,7 +458,7 @@ background-color: rgba(255, 255, 255, 0.20);
 }
 
 #resources h3 {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 #resources .resources-wrapper i {
