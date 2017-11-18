@@ -228,6 +228,10 @@ td {
 padding: 5px 15px 5px 15px;
 }
 
+td.time {
+  text-align: center;
+}
+
 
 /*============================
 PRICING SECTION STYLES
